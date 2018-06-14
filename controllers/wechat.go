@@ -8,8 +8,8 @@ type WechatController struct {
 	BaseController
 }
 
-func (self *WechatController) List() {
+func (self *WechatController) Edit() {
 	self.Data["pageTitle"] = "微信配置"
 	self.display()
-	//self.TplName = "wechat/list.html"
+	self.TplName = "wechat/edit.html"
 }
