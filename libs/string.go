@@ -14,6 +14,7 @@ import (
 	"math/rand"
 	"regexp"
 	"time"
+	"encoding/hex"
 )
 
 var emailPattern = regexp.MustCompile("[\\w!#$%&'*+/=?^_`{|}~-]+(?:\\.[\\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\\w](?:[\\w-]*[\\w])?\\.)+[a-zA-Z0-9](?:[\\w-]*[\\w])?")
@@ -50,11 +51,11 @@ func Password(len int, pwdO string) (pwd string, salt string) {
 }
 
 // 生成32位MD5
-// func MD5(text string) string{
-//    ctx := md5.New()
-//    ctx.Write([]byte(text))
-//    return hex.EncodeToString(ctx.Sum(nil))
-// }
+func MD5(text string) string{
+   ctx := md5.New()
+   ctx.Write([]byte(text))
+   return hex.EncodeToString(ctx.Sum(nil))
+}
 
 //生成随机字符串
 func GetRandomString(lens int) string {

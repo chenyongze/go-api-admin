@@ -8,7 +8,6 @@
 package controllers
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 
@@ -47,7 +46,6 @@ func (self *BaseController) Prepare() {
 	self.Data["curAction"] = self.actionName
 	// noAuth := "ajaxsave/ajaxdel/table/loginin/loginout/getnodes/start"
 	// isNoAuth := strings.Contains(noAuth, self.actionName)
-	fmt.Println(self.controllerName)
 	if (strings.Compare(self.controllerName, "apidoc")) != 0 {
 		self.auth()
 	}
@@ -58,7 +56,6 @@ func (self *BaseController) Prepare() {
 
 //登录权限验证
 func (self *BaseController) auth() {
-
 	arr := strings.Split(self.Ctx.GetCookie("auth"), "|")
 	self.userId = 0
 	if len(arr) == 2 {

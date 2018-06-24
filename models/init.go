@@ -27,8 +27,6 @@ func Init() {
 		dbport = "3306"
 	}
 	dsn := dbuser + ":" + dbpassword + "@tcp(" + dbhost + ":" + dbport + ")/" + dbname + "?charset=utf8"
-	// fmt.Println(dsn)
-
 	if timezone != "" {
 		dsn = dsn + "&loc=" + url.QueryEscape(timezone)
 	}
@@ -41,6 +39,7 @@ func Init() {
 	}
 }
 
+//表名字处理
 func TableName(name string) string {
 	return beego.AppConfig.String("db.prefix") + name
 }

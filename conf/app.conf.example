@@ -1,4 +1,4 @@
-appname = PPGo_ApiAdmin
+appname = go-api-admin
 httpport = 8081
 httpaddr = 127.0.0.1
 runmode = dev
@@ -9,8 +9,8 @@ site.name = API管理平台
 # 数据库配置
 db.host = 127.0.0.1
 db.user = root
-db.password = "ba199035"
+db.password =
 db.port = 3306
-db.name = ppgo_api_admin
-db.prefix = pp_
+db.name = dt_api
+db.prefix = dt_
 db.timezone = Asia/Shanghai
