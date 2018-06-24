@@ -52,6 +52,7 @@ func (self *BaseController) Prepare() {
 
 	self.Data["loginUserId"] = self.userId
 	self.Data["loginUserName"] = self.userName
+	self.Data["loginUserPic"] = "/static/img/userface.jpg"
 }
 
 //登录权限验证
@@ -129,8 +130,8 @@ func (self *BaseController) AdminAuth() {
 		}
 	}
 
-	self.Data["SideMenu1"] = list[:i]  //一级菜单
-	self.Data["SideMenu2"] = list2[:j] //二级菜单
+	self.Data["SideMenu"] = list[:i]  //一级菜单
+	self.Data["SideMenuSub"] = list2[:j] //二级菜单
 
 	self.allowUrl = allow_url + "/home/index"
 }
