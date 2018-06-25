@@ -1,8 +1,8 @@
 /**********************************************
 ** @Des: 权限因子
-** @Author: haodaquan
+** @Author: yongze.chen
 ** @Date:   2017-09-09 20:50:36
-** @Last Modified by:   haodaquan
+** @Last Modified by:   yongze.chen
 ** @Last Modified time: 2017-09-17 21:42:08
 ***********************************************/
 package models

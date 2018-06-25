@@ -1,8 +1,8 @@
 /**********************************************
 ** @Des: 用户
-** @Author: haodaquan
+** @Author: yongze.chen
 ** @Date:   2017-09-16 14:17:37
-** @Last Modified by:   haodaquan
+** @Last Modified by:   yongze.chen
 ** @Last Modified time: 2017-09-17 11:14:07
 ***********************************************/
 package controllers

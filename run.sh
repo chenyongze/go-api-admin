@@ -1,7 +1,7 @@
 #!/bin/bash
-# @Author: haodaquan
+# @Author: yongze.chen
 # @Date:   2017-06-29 17:44:45
-# @Last Modified by:   haodaquan
+# @Last Modified by:   yongze.chen
 # @Last Modified time: 2017-06-29 17:44:45
 
 EXE_FILE=go-api-admin

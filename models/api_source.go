@@ -1,8 +1,8 @@
 /**********************************************
 ** @Des: 接口资源
-** @Author: haodaquan
+** @Author: yongze.chen
 ** @Date:   2018-01-14 15:42:43
-** @Last Modified by:   haodaquan
+** @Last Modified by:   yongze.chen
 ** @Last Modified time: 2018-01-14 15:42:43
 ***********************************************/
 package models
