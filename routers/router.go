@@ -31,7 +31,4 @@ func init() {
 
 	beego.AutoRouter(&controllers.WechatController{})
 
-	//测试
-	beego.AutoRouter(&controllers.TestController{})
-
 }

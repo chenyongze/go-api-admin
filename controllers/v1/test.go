@@ -2,11 +2,12 @@
 * @Author:yongze.chen
 * @Date:2018/6/25 21:21
  */
-package controllers
+package v1
 
 import (
 	"time"
 	"fmt"
+	"github.com/astaxie/beego"
 )
 
 type TestController struct {
@@ -15,10 +16,8 @@ type TestController struct {
 
 func (self *BaseController) A()  {
 	fmt.Println(time.Now().Unix())
-
 	x := time.Now().Format("2006-01-02 15:04:05")
-
-
+	beego.Info(x)
 	now := time.Now()
 	// ParseDuration parses a duration string.
 	// A duration string is a possibly signed sequence of decimal numbers,
@@ -29,9 +28,7 @@ func (self *BaseController) A()  {
 	m, _ := time.ParseDuration("-1h")
 	m1 := now.Add(m)
 	fmt.Println(m1)
-
-
-
-	self.Ctx.WriteString(x)
+	//self.Ctx.WriteString(x)
+	self.ajaxMsg("xxxx",-3)
 
 }
