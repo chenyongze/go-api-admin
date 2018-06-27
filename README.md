@@ -50,9 +50,13 @@ API新增界面<br/>
 ----
 
 1、go get github.com/chenyongze/go-api-admin
+
 2、创建mysql数据库，并将./docs/db/dt_api.sql导入
-3、修改config 配置数据库    
-4、运行 go build    
+
+3、修改config 配置数据库
+
+4、运行 go build
+
 5、运行 ./run.sh start|stop
 
 
