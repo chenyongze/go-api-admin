@@ -3,9 +3,6 @@ PPGo_ApiAdmin
 什么东西？What?
 ----
 API管理工具 golang开发，基于beego，页面基于layUi,目前版本1.0.0   
-demo地址：http://apiadmin.yongze.chen.com
-后台用户名和密码请加群联系获取（有人删数据，没办法）
-
 
 有什么价值？
 ----
@@ -49,12 +46,11 @@ API新增界面<br/>
 
 <br/><br/>
 
-
-
 安装方法    
 ----
+
 1、go get github.com/chenyongze/go-api-admin
-2、创建mysql数据库，并将ppgo_api_admin.sql导入    
+2、创建mysql数据库，并将./docs/db/dt_api.sql导入
 3、修改config 配置数据库    
 4、运行 go build    
 5、运行 ./run.sh start|stop
@@ -62,7 +58,7 @@ API新增界面<br/>
 
 前台访问：http://your_host:8081
 后台访问：http://your_host:8081/login
-用户名：admin 密码：xxxxxx
+用户名：admin 密码：000...
 
 
 

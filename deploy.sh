@@ -7,7 +7,7 @@
 
 APP_NAME=go-api-admin
 APP_PATH_SOURCE=/home/wwwroot/yongze-source/
-PACK_EXS='.go:.DS_Store:.tmp:info.log:deploy.sh:Dockerfile:vendor:restart.sh:swagger:README.md:.gitee:db:README-zh.md:conf/app.conf.example'
+PACK_EXS='.go:.DS_Store:.tmp:info.log:deploy.sh:Dockerfile:vendor:restart.sh:swagger:README.md:.gitee:db:README-zh.md:conf/app.conf.example:docs'
 
 case $1 in
 	prod)
