@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/chenyongze/go-api-admin/models"
-	_ "github.com/chenyongze/go-api-admin/routers"
+	"go-api-admin/models"
+	_ "go-api-admin/routers"
 	"github.com/astaxie/beego"
-	"github.com/chenyongze/go-api-admin/controllers/v1"
+	"go-api-admin/controllers/v1"
 )
 
 func main() {

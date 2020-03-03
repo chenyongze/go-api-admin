@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/chenyongze/go-api-admin/models"
+	"go-api-admin/models"
 )
 
 type CodeController struct {

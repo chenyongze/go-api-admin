@@ -1,2 +1,4 @@
 go-api-admin
 conf/app.conf
+vendor
+go.sum

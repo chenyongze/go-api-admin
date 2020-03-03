@@ -6,7 +6,7 @@ import (
 	"github.com/silenceper/wechat"
 	"github.com/silenceper/wechat/message"
 	"github.com/astaxie/beego"
-	"github.com/chenyongze/go-api-admin/libs"
+	"go-api-admin/libs"
 )
 
 

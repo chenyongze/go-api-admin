@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/chenyongze/go-api-admin/libs"
-	"github.com/chenyongze/go-api-admin/models"
+	"go-api-admin/libs"
+	"go-api-admin/models"
 )
 
 type LoginController struct {
