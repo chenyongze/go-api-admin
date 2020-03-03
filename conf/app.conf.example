@@ -11,6 +11,6 @@ db.host = 127.0.0.1
 db.user = root
 db.password =
 db.port = 3306
-db.name = dt_api
+db.name = go-api-admin
 db.prefix = dt_
 db.timezone = Asia/Shanghai

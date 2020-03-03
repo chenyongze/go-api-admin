@@ -39,7 +39,7 @@ func Init() {
 	}
 }
 
-//表名字处理
+// 表名字处理
 func TableName(name string) string {
 	return beego.AppConfig.String("db.prefix") + name
 }
