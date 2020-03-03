@@ -1,13 +1,13 @@
 # ************************************************************
 # Sequel Pro SQL dump
-# Version 4541
+# Version 5446
 #
-# http://www.sequelpro.com/
+# https://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.18)
-# Database: dt_api
-# Generation Time: 2018-06-27 05:52:55 +0000
+# Host: 127.0.0.1 (MySQL 5.6.47)
+# Database: go-api-admin
+# Generation Time: 2020-03-03 07:51:54 +0000
 # ************************************************************
 
 
@@ -15,6 +15,7 @@
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
+SET NAMES utf8mb4;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
@@ -291,7 +292,7 @@ LOCK TABLES `dt_uc_admin` WRITE;
 
 INSERT INTO `dt_uc_admin` (`id`, `login_name`, `real_name`, `password`, `role_ids`, `phone`, `email`, `salt`, `last_login`, `last_ip`, `status`, `create_id`, `update_id`, `create_time`, `update_time`)
 VALUES
-	(1,'admin','超级管理员','ecf02fb32ac36e1ed3101badd2cba54c','0','13888888889','sapphire.php@gmail.com','kmcB',1530078705,'127.0.0.1',1,0,0,0,1506128438);
+	(1,'admin','超级管理员','18f79d9555327b0a4d79b48516722066','0','13888888889','sapphire.php@gmail.com','JxV3',1583221552,'127.0.0.1',1,0,1,0,1583221394);
 
 /*!40000 ALTER TABLE `dt_uc_admin` ENABLE KEYS */;
 UNLOCK TABLES;

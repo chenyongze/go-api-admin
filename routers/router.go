@@ -1,8 +1,9 @@
 package routers
 
 import (
-	"github.com/astaxie/beego"
 	"go-api-admin/controllers"
+
+	"github.com/astaxie/beego"
 )
 
 func init() {
@@ -29,6 +30,6 @@ func init() {
 	beego.AutoRouter(&controllers.AdminController{})
 	beego.AutoRouter(&controllers.UserController{})
 
-	beego.AutoRouter(&controllers.WechatController{})
+	// beego.AutoRouter(&controllers.WechatController{})
 
 }
