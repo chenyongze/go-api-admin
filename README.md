@@ -37,8 +37,106 @@ API管理工具 golang开发，基于beego，页面基于layUi,目前版本1.0.0
 
 
 
+### 代码结构
+
+```shell
+.
+├── README.assets
+│   ├── image-20200303154518494.png
+│   ├── image-20200303154606783.png
+│   ├── image-20200303154755168.png
+│   ├── image-20200303154909261.png
+│   └── image-20200303154941879.png
+├── README.md
+├── conf
+│   ├── app.conf
+│   └── app.conf.example
+├── controllers
+│   ├── admin.go
+│   ├── api.go
+│   ├── apidoc.go
+│   ├── apimonitor.go
+│   ├── apipublic.go
+│   ├── auth.go
+│   ├── code.go
+│   ├── common.go
+│   ├── env.go
+│   ├── group.go
+│   ├── home.go
+│   ├── login.go
+│   ├── role.go
+│   ├── source.go
+│   ├── template.go
+│   ├── user.go
+│   └── v1
+├── deploy.sh
+├── docs
+│   └── db
+├── go.mod
+├── go.sum
+├── libs
+│   ├── string.go
+│   └── wechat.go
+├── main.go
+├── models
+│   ├── admin.go
+│   ├── api_detail.go
+│   ├── api_public.go
+│   ├── api_source.go
+│   ├── auth.go
+│   ├── code.go
+│   ├── env.go
+│   ├── group.go
+│   ├── init.go
+│   ├── role.go
+│   ├── role_auth.go
+│   └── template.go
+├── restart.sh
+├── routers
+│   ├── router.go
+│   └── v1.go
+├── run.sh
+├── static
+│   ├── README.md
+│   ├── css
+│   ├── editor.md
+│   ├── font-awesome
+│   ├── img
+│   ├── js
+│   ├── layui
+│   ├── user.json
+│   └── zTree3
+├── tests
+│   └── default_test.go
+├── vendor
+│   ├── github.com
+│   ├── golang.org
+│   ├── gopkg.in
+│   └── modules.txt
+└── views
+    ├── admin
+    ├── api
+    ├── apidoc
+    ├── apimonitor
+    ├── apipublic
+    ├── apisource
+    ├── auth
+    ├── code
+    ├── env
+    ├── group
+    ├── home
+    ├── login
+    ├── public
+    ├── role
+    ├── template
+    ├── user
+    └── wechat
+```
+
+
 
 ### 效果展示
+
 > 登录页面
 
 ![image-20200303154518494](README.assets/image-20200303154518494.png)
